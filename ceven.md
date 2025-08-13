@@ -5,3 +5,7 @@
 - Fidn github apis for karnaugh maps solver.
 - Find github apis for logic ly like.
 
+## August 13 Completed:
+- refactored auth :/ Im weird i know.
+- added fastify on backend + auth checking tokens.
+- added frontend service + api + constants.
