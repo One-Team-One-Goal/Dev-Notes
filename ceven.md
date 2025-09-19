@@ -47,4 +47,10 @@ Circuit Maker:      ░░░░░░░░░░░░░░░░░░░░
 *Last updated: August 17, 2025*
 
 
+## Todo's:
+- [ ] **Fix Responsive Design for KMap**
+- [ ] **Fix navbar overlap**
+- [ ] **Remove Process in settings**
+
+
 
