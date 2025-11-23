@@ -1,7 +1,10 @@
 # Usability Testing Plan: Bitwise
 
-## 1. Methodology
-We will utilize a mixed-method approach combining **Task-Based Usability Testing** (to measure effectiveness and efficiency) and the **System Usability Scale (SUS)** (to measure satisfaction).
+## 1. Methodology: The Bitwise Evaluation Model
+We will utilize a hybrid evaluation framework combining **ISO 9241-11** (Usability) and the **Technology Acceptance Model (TAM)** (Adoption).
+
+*   **ISO 9241-11:** Focuses on **Effectiveness** (Task Success), **Efficiency** (Time-on-Task), and **Satisfaction** (SUS Score).
+*   **TAM:** Focuses on **Perceived Usefulness** and **Perceived Ease of Use** to validate educational value.
 
 ## 2. Test Demographics
 *   **Target Audience:** Students / Peers
@@ -34,11 +37,16 @@ We will utilize a mixed-method approach combining **Task-Based Usability Testing
 9. I felt very confident using the system.
 10. I needed to learn a lot of things before I could get going with this system.
 
-### Part B: Educational Value (Simplified TAM)
-*Rate on a scale of 1 to 5*
+### Part B: Technology Acceptance Model (TAM)
+*Rate on a scale of 1 to 5 (1 = Strongly Disagree, 5 = Strongly Agree)*
 
-11. Using Bitwise helps me understand computer architecture concepts better.
-12. The interactive tools (K-Map, Calculator) made learning easier than traditional methods.
+**Perceived Usefulness:**
+11. Using Bitwise improves my understanding of computer architecture concepts.
+12. The interactive tools (K-Map, Calculator) make learning more effective than traditional methods.
+13. I find Bitwise useful for my studies.
+
+**Perceived Ease of Use:**
+*(Covered by SUS questions 3, 7, and 9 above)*
 
 ### Part C: Open-Ended Feedback
 13. What was the most difficult part of using the application?
@@ -46,6 +54,9 @@ We will utilize a mixed-method approach combining **Task-Based Usability Testing
 15. Do you have any suggestions for improvement?
 
 ## 5. Metrics to Record
-*   **Completion Rate:** % of users who finished the task without help.
-*   **SUS Score:** Calculate using the standard formula (Score * 2.5).
-*   **Adjective Rating:** Convert SUS score to adjective (e.g., >80 = "Excellent").
+| Metric | Framework Component | How to Measure |
+| :--- | :--- | :--- |
+| **Task Success Rate** | ISO 9241-11 (Effectiveness) | % of tasks completed without critical errors. |
+| **Time-on-Task** | ISO 9241-11 (Efficiency) | Average time taken to complete specific tasks (e.g., T03, T04). |
+| **SUS Score** | ISO 9241-11 (Satisfaction) | Standard calculation (Score * 2.5). Target: >68. |
+| **Perceived Usefulness** | TAM (Adoption) | Average score of Part B questions. |
